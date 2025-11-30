@@ -1,0 +1,7 @@
+h1 {
+   color: var(--header-color);
+   font-size: 3rem;
+   font-style: italic;
+   font-variant: small-caps;
+   text-align: center;
+}
