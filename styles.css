@@ -276,5 +276,142 @@ h1 {
     }
 }
 
+/* Contact Page */
+.contact-form-container {
+    max-width: 600px;
+    margin: 0 auto 40px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.form-group label {
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: #1a1a1a;
+}
+
+.form-group input,
+.form-group textarea {
+    padding: 12px;
+    border: 2px solid #999;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-family: Arial, sans-serif;
+    color: #1a1a1a;
+    background-color: #fff;
+    width: 100%;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: #666;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.form-group textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+.submit-button {
+    padding: 15px 30px;
+    background-color: #e0e0e0;
+    border: 2px solid #999;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #1a1a1a;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    align-self: center;
+    min-width: 150px;
+}
+
+.submit-button:hover {
+    background-color: #d0d0d0;
+}
+
+@media (max-width: 768px) {
+    .contact-form-container {
+        max-width: 100%;
+        padding: 0 10px;
+    }
+}
+
+/* Blog Page */
+.newsletter-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.newsletter-image {
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.newsletter-img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 10px;
+    border: 2px solid #999;
+    object-fit: cover;
+}
+
+.newsletter-text {
+    max-width: 800px;
+    text-align: center;
+}
+
+.newsletter-text h2 {
+    font-size: 2rem;
+    color: #1a1a1a;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.newsletter-text p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #1a1a1a;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+@media (max-width: 768px) {
+    .newsletter-image {
+        max-width: 100%;
+    }
+    
+    .newsletter-img {
+        max-width: 100%;
+    }
+    
+    .newsletter-text {
+        padding: 0 10px;
+    }
+    
+    .newsletter-text h2 {
+        font-size: 1.5rem;
+    }
+}
+
 
 
